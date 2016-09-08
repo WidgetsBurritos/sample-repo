@@ -1,0 +1,28 @@
+body { font-family: "Comic Sans MS", cursive, sans-serif; }
+
+/* sidebar */
+.container #sidebar ul,
+.container #sidebar ul li,
+.container #sidebar ul li a {
+  margin-bottom: 5px;
+  padding-top: 5px;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 1.1em;
+}
+
+/* articles */
+.content-region #article {
+  border-bottom: 1px solid #f0f0f0;
+  margin: 20px 0;
+  padding-bottom: 20px;
+}
+
+.content-region #article .article-Title h1 {
+  font-size: 2.2rem;
+}
+
+.content-region #article .article-Title h1 b, .content-region #article .article-Title h1 strong { text-transform: uppercase;
+}
+
+.content-region #article .articleBody { font-size: 15px; line-height: 2em; }
